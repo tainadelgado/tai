@@ -1,0 +1,84 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "collapsed_sections": [],
+      "authorship_tag": "ABX9TyMqWfUMPhS9rRiXzb6E3PYW",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/tainadelgado/tai/blob/master/Elementos%20Finitos%20-%20Atividade%201\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "RbxZe8F6QK66"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Seja a placa circular de raio interno $R_i$ e raio externo R. A sua **formulação forte** para o problema de condução de calor:\n",
+        "\n",
+        "$$k \\frac{d}{dr} (r\\frac{d}{dr}T(r))+r s = 0$$ R_i $\\leq$ r $\\leq$ R\n",
+        "\n",
+        "$$\\frac{d}{dr}T(r=R_i)=0$$\n",
+        "\n",
+        "$$T(r=R)= \\bar{T}$$ "
+      ],
+      "metadata": {
+        "id": "qT3sqnqwLlKu"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "**a) Deseja-se obter a forma fraca para a forma forte apresentada. Pede-se, também, os conjuntos $U$ e $U^0$ para os espaços das funções candidatas a solução T(r) e de teste w(r).**"
+      ],
+      "metadata": {
+        "id": "fzV3CwdPPN0r"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "- Obtendo-se a forma fraca:\n",
+        "1. Multiplicação da equação de governo e a C.C pela função teste.\n",
+        "2. integração sobre os seus domínios de ação."
+      ],
+      "metadata": {
+        "id": "DvpFjIVQP2DF"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "W0chNB6nQNrK"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
